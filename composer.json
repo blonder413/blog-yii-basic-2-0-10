@@ -25,17 +25,11 @@
         "imanilchaudhari/yii2-rrssb": "dev-master",
         "robregonm/yii2-pdf": "*",
         "kartik-v/yii2-widget-select2": "@dev",
-<<<<<<< HEAD
         "2amigos/yii2-ckeditor-widget": "^2.0",
         "dmstr/yii2-adminlte-asset": "*",
         "kartik-v/yii2-widget-fileinput": "@dev",
         "kartik-v/yii2-widget-datetimepicker": "*",
-=======
-        "dmstr/yii2-adminlte-asset": "*",
-        "kartik-v/yii2-widget-fileinput": "@dev",
-        "2amigos/yii2-ckeditor-widget": "^2.0",
         "2amigos/yii2-date-picker-widget": "~1.0",
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
         "branchonline/yii2-lightbox": "*"
     },
     "require-dev": {

@@ -4,12 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "hash": "93f4f64ab1d85ac913d2baae39d6b69a",
-    "content-hash": "0280da3432216f60591159ecf037f660",
-=======
-    "content-hash": "42e8706e5bb260dcb7ffdf766e7e153a",
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
     "packages": [
         {
             "name": "2amigos/yii2-ckeditor-widget",
@@ -69,22 +63,6 @@
                 "yii 2",
                 "yii2"
             ],
-<<<<<<< HEAD
-            "time": "2016-11-10 11:32:46"
-        },
-        {
-            "name": "almasaeed2010/adminlte",
-            "version": "v2.3.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "ced14b133daed8c163863a497c43dcf69eea4340"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/ced14b133daed8c163863a497c43dcf69eea4340",
-                "reference": "ced14b133daed8c163863a497c43dcf69eea4340",
-=======
             "time": "2016-11-10T11:32:46+00:00"
         },
         {
@@ -160,7 +138,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/2be703222af2edcb87e562d3da2299e4352bff8a",
                 "reference": "2be703222af2edcb87e562d3da2299e4352bff8a",
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
                 "shasum": ""
             },
             "type": "library",
@@ -187,11 +164,6 @@
                 "theme",
                 "web"
             ],
-<<<<<<< HEAD
-            "time": "2016-11-04 14:42:55"
-=======
-            "time": "2017-01-08T21:03:57+00:00"
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
         },
         {
             "name": "bower-asset/bootstrap",
@@ -489,11 +461,6 @@
                 "module",
                 "yii2"
             ],
-<<<<<<< HEAD
-            "time": "2016-10-27 15:13:14"
-=======
-            "time": "2016-10-27T15:13:14+00:00"
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
         },
         {
             "name": "cebe/markdown",
@@ -1116,18 +1083,6 @@
         },
         {
             "name": "kartik-v/bootstrap-fileinput",
-<<<<<<< HEAD
-            "version": "v4.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kartik-v/bootstrap-fileinput.git",
-                "reference": "6e1a8ca5ca04d4927540ccf18bbfc3253286bd0c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/6e1a8ca5ca04d4927540ccf18bbfc3253286bd0c",
-                "reference": "6e1a8ca5ca04d4927540ccf18bbfc3253286bd0c",
-=======
             "version": "v4.3.8",
             "source": {
                 "type": "git",
@@ -1138,7 +1093,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/kartik-v/bootstrap-fileinput/zipball/219447a8c21b1c82e534dc2e6a73386933fc9c5e",
                 "reference": "219447a8c21b1c82e534dc2e6a73386933fc9c5e",
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
                 "shasum": ""
             },
             "type": "library",
@@ -1178,11 +1132,6 @@
                 "progress",
                 "upload"
             ],
-<<<<<<< HEAD
-            "time": "2016-09-20 05:47:41"
-=======
-            "time": "2017-02-21T06:45:16+00:00"
->>>>>>> fbb4f925194172539c2c0b43a9309233977d9bc3
         },
         {
             "name": "kartik-v/yii2-krajee-base",

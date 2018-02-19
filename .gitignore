@@ -9,6 +9,10 @@ nbproject
 .project
 .settings
 
+# komodo project files
+.komodotools
+blog-yii-basic-2-0-10.komodoproject
+
 # windows thumbnail cache
 Thumbs.db
 

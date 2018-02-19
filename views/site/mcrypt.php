@@ -1,0 +1,68 @@
+<h2>Algoritmos</h2>
+<?php
+    $algorithms = mcrypt_list_algorithms("/usr/local/lib/libmcrypt");
+
+    foreach ($algorithms as $cipher) {
+        echo "$cipher<br />\n";
+    }
+?>
+<hr />
+<h2>Modes</h2>
+<?php
+    $modes = mcrypt_list_modes();
+
+    foreach ($modes as $mode) {
+        echo "$mode <br />\n";
+    }
+
+/*
+
+Algoritmos
+-------------
+MCRYPT_3DES
+MCRYPT_ARCFOUR
+MCRYPT_ARCFOUR_IV
+MCRYPT_BLOWFISH
+MCRYPT_BLOWFISH_COMPAT
+MCRYPT_CAST_128
+MCRYPT_CAST_256
+MCRYPT_CRYPT
+MCRYPT_DECRYPT
+MCRYPT_DES
+MCRYPT_DEV_RANDOM
+MCRYPT_DEV_URANDOM
+MCRYPT_ENCRYPT
+MCRYPT_ENIGNA
+MCRYPT_GOST
+MCRYPT_IDEA
+MCRYPT_LOKI97
+MCRYPT_MARS
+MCRYPT_PANAMA
+MCRYPT_RAND
+MCRYPT_RC2
+MCRYPT_RC6
+MCRYPT_RIJNDAEL_128
+MCRYPT_RIJNDAEL_192
+MCRYPT_RIJNDAEL_256
+MCRYPT_SAFER128
+MCRYPT_SAFER64
+MCRYPT_SAFERPLUS
+MCRYPT_SERPENT
+MCRYPT_SKIPJACK
+MCRYPT_THREEWAY
+MCRYPT_TRIPLEDES
+MCRYPT_TWOFISH
+MCRYPT_WAKE
+MCRYPT_XTEA
+
+-----------------------------------
+Modos
+----------------------------------
+MCRYPT_MODE_CBC
+MCRYPT_MODE_CFB
+MCRYPT_MODE_ECB
+MCRYPT_MODE_NOFB
+MCRYPT_MODE_OFB
+MCRYPT_MODE_STREAM
+ */
+?>

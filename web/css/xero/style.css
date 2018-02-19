@@ -1,0 +1,134 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/11/2016, 04:26:05 PM
+    Author     : blonder413
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.mobile {
+    background-color: #000;
+    border-bottom: 1px #FFF;
+    color: #FFF;
+    display: block;
+    padding: 7px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+a.mobile:active {
+    background-color: #4A4A4A;
+}
+
+ul#nav {
+    
+}
+
+ul#nav li {
+    list-style: none;
+}
+
+ul#nav li a {
+    border-bottom: 1px solid #0A0A0A;
+    color: #CCC;
+    font-size: 0.8em;
+    display: block;
+    padding: 10px;
+    transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -webkit-transition: 0.2s;
+}
+
+ul#nav li a:hover {
+    background-color: #030303;
+    color: #FFF;
+    padding-left: 30px;
+}
+
+ul#nav li a.selected {
+    background-color: #030303;
+    color: #FFF;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#header {
+    background-color: #2C3E50;
+    height: 50px;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+
+.content {
+    background-color: #FFF;
+    height: calc(100% - 50px);
+    margin-left: 250px;
+    padding: 15px;
+    width: auto;
+}
+
+.content p {
+    color: 424242;
+    font-size: 0.73em
+}
+
+.logo {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.logo a {
+    color: #FFF;
+    font-size: 1.6em;
+}
+
+.sidebar {
+    background-color: #171717;
+    float: left;
+    height: calc(100% - 50px);
+    padding-top: 50px;
+    position: static;
+    width: 250px;
+}
+
+@media only screen and (max-width: 480px) {
+    .sidebar {
+        display: none;
+        padding-top: 0px;
+        width: 100%;
+    }
+    
+    .content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    a.mobile {
+        display: none;
+    }
+    
+    .sidebar{
+        display: block;
+        height: 100%;
+        min-height: 100%;
+    }
+}

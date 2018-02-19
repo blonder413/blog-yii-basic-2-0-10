@@ -1,0 +1,247 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+/*
+    Created on : 31/07/2015, 08:56:01 PM
+    Author     : blonder413
+*/
+
+@import url("http://fonts.googleapis.com/css?family=Arimo|Roboto|Asap");
+
+a {
+    color: #e74c3c;
+}
+
+a:hover {
+    color: #27ae60;
+}
+
+body {
+    /*background-color: rgba(250,172,88,0.2);*/
+    background-image: url("../../img/background-navidad.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: center;*/
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    font-family: Arimo;
+    padding-top: 70px;
+}
+
+footer {
+    background-color: #27ae60;
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+footer a {
+    color: #e74c3c;
+}
+
+footer a:hover {
+    color: #e74c3c;
+}
+
+.badge a {
+    color: #FFF;
+}
+
+.bg-danger {
+    padding: 1em;
+}
+
+.fb-like {
+    margin-top: -.7em;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.comment-post {
+    margin-top: 3em;
+}
+
+.course-title{
+    background-color: #27ae60;
+    border: 1px solid #CCC;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+}
+
+.course-title:hover{
+    background-color: #e74c3c;
+    border: 1px solid #CCC;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.icon-bar {
+  background-color: #fff;
+  color: #fff;
+}
+
+.item-comment {
+    list-style: none;
+    padding: 0;
+}
+
+.item-comment li {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 1em 0 1em;
+}
+
+.item-comment-name {
+    font-style: italic;
+}
+
+.jumbotron {
+  background-color: #428bca;
+  color: #fff;
+  margin-top: -20px;
+  padding: 0;
+  text-align: center;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.main {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #e74c3c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-navidad {
+  background-color: #27ae60;
+  opacity: 0.9;
+}
+
+.navbar-navidad a {
+  color: #fff;
+}
+
+.navbar-navidad span {
+  color: #fff;
+}
+
+.navbar-navidad .navbar-nav > .active > a,
+.navbar-navidad .navbar-nav > .active > a:hover,
+.navbar-navidad .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.navbar-brand {
+    margin: auto 0;
+    padding: .5em 0;
+}
+
+.navbar-left {
+    font-size: 1.5em !important;
+}
+
+.pagination > li > a:hover {
+    color: #e74c3c;
+}
+
+.pagination > li > a, .pagination > li > span {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #e74c3c;
+    border-color: #CDBD32;
+}
+
+.pagination > .active {
+	color: #000;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.panel {
+    border-color: #CCC;
+    margin-top: 1em;
+}
+
+.panel-primary > .panel-heading{
+    background-color: #27ae60;
+	border-color: #e74c3c;
+}
+
+.post {
+  border-bottom: 1px solid #999;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.post .container-buttons {
+  display: inline-block;
+  width: 100%;
+}
+
+.post .post-title a {
+  color: #e74c3c;
+}
+
+.post .thumb {
+  margin-right: 10px;
+  width: 25%;
+}
+
+.post .thumb img {
+  width: 100%;
+}
+
+.socialShareBlock a{
+    float: left;
+    padding: .3em;
+}
+
+.video-responsive {
+    height: 0px;
+    margin-bottom: 2em;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+
+}
+
+.video-responsive iframe{
+    border: .5em #ffb100 outset;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* -- Media Query -- */
+
+@media screen and (max-width: 768px) {
+  .post .thumb {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar-left {
+    font-size: 1.5em !important;
+  }
+}
